@@ -39,3 +39,22 @@ main {
     height: 472.5px;
     width: 269px;
 }
+
+#icones {
+    text-align: right;
+}
+
+#icones img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    border: 2px solid rgba(255, 255, 255, 0.586);
+    display: border-box;
+}
+
+#icones img:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.600);
+    transform: translate(-2px, -2px);
+    transition: transform 0.3s;
+}
